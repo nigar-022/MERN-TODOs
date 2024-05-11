@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+input {
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  justify-content: center;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.display {
+  opacity: 1;
+}
+
+.done {
+  text-decoration: line-through;
+}
